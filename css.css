@@ -1,0 +1,177 @@
+
+body{
+	background-color:rgb(211,211,211);
+}
+.Cabeçalho{
+	height:10vh; 
+	width:100%;
+	background-color:rgb(161,161,161);
+	display: flex;  
+}
+.img1{
+	height: 100%;
+	width:15%;
+}
+.cb1{
+	background-color:black;
+	height: 5vh;
+	width: 10vh;
+	margin-left: 80%;
+	margin-top: 15px;
+}
+.cb2{
+	background-color:black;
+	height: 5vh;
+	width: 10vh;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+.cb3{
+	background-color:black;
+	height: 5vh;
+	width: 10vh;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.img2{
+	margin-left:10%;
+	margin-top:10px;
+	height: 50%;
+	width: 80%;
+}
+.seleção{
+	display: flex;
+
+
+}
+.times1{
+	margin-left: 2%;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 140%;
+
+
+}
+.times2{
+	margin-left: 5%;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 160%;
+
+}
+.times3{
+	margin-left: 5%;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 140%;
+
+}
+.times4{
+	margin-left: 5%;
+	margin-top: 5px;
+	text-align: center;
+
+}
+.final{
+	display: flex;
+	
+}
+.esquerdo{
+	height: 80vh;
+	width: 25%; 
+}
+.esquerdo1{
+	height: 168px;
+	width: 300px;
+}
+.esquerdo2{
+	height: 168px;
+	width: 300px;
+}
+.esquerdo3{
+	height: 168px;
+	width: 300px;
+}
+.textocentral{
+ 
+	height: 80%;
+	width: 50%;
+	text-align: center;
+	line-height: 190%;
+
+}
+.direito{
+	height: 80vh;
+	width: 25%;
+}
+.direito1{
+	height: 168px;
+	width: 300px;
+	margin-left: 10%;
+}
+.direito2{
+	height: 168px;
+	width: 300px;
+	margin-left: 10%;
+}
+.direito3{
+	height: 168px;
+	width: 300px;
+	margin-left: 10%;
+}
+
+@media(max-width: 1050px){
+.esquerdo, .esquerdo1, .esquerdo2, .esquerdo3 {
+	width:0%; 
+	height:0%;
+}
+.direito, .direito1, .direito2, .direito3 {
+	width:0%; 
+	height:0%;
+}
+.textocentral{
+	margin-left: 25%;
+	line-height: 100%;
+}
+}
+@media(max-width: 760px){
+.seleção{
+	flex-wrap: wrap;	
+}
+.esquerdo, .esquerdo1, .esquerdo2, .esquerdo3 {
+	width:0%; 
+	height:0%;
+}
+.direito, .direito1, .direito2, .direito3 {
+	width:0%; 
+	height:0%;
+}
+.textocentral{
+	margin-left: 25%;
+	line-height: 100%;
+}
+}
+@media(max-width: 733px){
+
+.seleção{
+	flex-direction: row;
+	margin-left: 25%;
+	margin-right: 25%;	
+}
+.esquerdo, .esquerdo1, .esquerdo2, .esquerdo3 {
+	width:0%; 
+	height:0%;
+}
+.direito, .direito1, .direito2, .direito3 {
+	width:0%; 
+	height:0%;
+}
+.textocentral{
+	margin-left: 25%;
+	line-height: 150%;
+
+}
+}
+
+
